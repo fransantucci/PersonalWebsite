@@ -1,0 +1,231 @@
+/* navbar */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+nav {
+    background: black;
+    height: 64px;
+    width: 100%;
+    border-bottom: 2px solid #f8b9c7;;
+}
+label.logo {
+    color: #f8b9c7;
+    font-size: 35px;
+    line-height: 64px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 64px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #f8b9c7;
+    font-size: 13px;
+    padding: 7px 8px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+a.navItem:hover {
+    text-decoration: none;
+    border-color: #f8b9c7;
+    color: #f8b9c7;
+    transition: .5s;
+}
+#imgLogoNav {
+    max-width: 30%;
+    max-height: 60px;
+    padding: 5px;
+    padding-left: 16px;
+    margin-top: 4px;
+}
+.sections {
+    border: 2px solid #f8b9c7;
+    text-align: left;
+}
+
+/* main */
+.texto {
+    /* border: 2px solid #f8b9c7; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+.bloque {
+    align-content: center;
+    width: fit-content;
+}
+.link {
+    color: #f8b9c7;
+}
+.link:hover {
+    text-decoration: none;
+    transition: 0.4s;
+    color: #ff8fa7;
+}
+img {
+    max-width: 320px;
+    padding: 20px;
+}
+.pinkText {
+    color: #f8b9c7;
+    text-align: center;
+    padding-top: 200px;
+}
+hr {
+    color: #f8b9c7;
+    border-color: #f8b9c7;
+}
+.button {
+    color: #f8b9c7;
+    font-size: 13px;
+    padding: 7px 8px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.button:hover {
+    text-decoration: none;
+    border-color: #f8b9c7;
+    color: #f8b9c7;
+    transition: .5s;
+}
+.cv {
+    color: #f8b9c7;
+    font-size: 16px;
+    padding: 7px 8px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.cv:hover {
+    text-decoration: none;
+    border-color: #f8b9c7;
+    color: #f8b9c7;
+    transition: .5s;
+}
+.playlist {
+    background: none;
+    display: inline-block;
+    border-radius: 16px;
+    border: 1px solid black;    
+}
+.playlist:hover {
+    border-color: #f8b9c7;
+}
+
+/* footer */
+*,*:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-size: 14px;
+}
+main {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f8b9c7;
+    line-height: 2.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #f8b9c7;
+    background-color: black;
+    border-top: 2px solid #f8b9c7;
+}
+.footer > * {
+    flex: 1 100%;
+}
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+.footer-left img {
+    width: 50%;
+}
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer li {
+    line-height: 2em;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    justify-content: center;
+    color: #f8b9c7;
+    padding-top: 50px;
+}
+.footer-left p {
+    padding-right: 20%;
+    color: #f8b9c7;
+}
+.socials {
+    justify-content: center;
+    text-align: center;
+}
+.socials a {
+    background: none;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+.socials a i {
+    color: #f8b9c7;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+.socials a:hover {
+    border-color: #f8b9c7;
+}
+.copyright {
+    color: #f8b9c7;
+}
+.copyright:hover {
+    text-decoration: none;
+    transition: 0.4s;
+    color: #ff8fa7;
+}
