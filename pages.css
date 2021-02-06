@@ -129,6 +129,62 @@ hr {
 .playlist:hover {
     border-color: #f8b9c7;
 }
+#letraC {
+    color: #f8b9c7;
+}
+#letras {
+    color: white;
+}
+.textBox {
+    padding: 8px;   
+    background-color: black;
+    border: 2px solid white;
+    color: #f8b9c7;
+    border-radius: 4px;
+    width: 80vw;
+    max-width: 640px;
+}
+.textBox:hover {
+    border-color: #f8b9c7;
+    cursor: not-allowed;
+}
+.largeTextBox:hover {
+    border-color: #f8b9c7;
+    cursor: not-allowed;
+}
+.largeTextBox {
+    padding: 8px;
+    background-color: black;
+    border: 2px solid white;
+    color: #f8b9c7;
+    border-radius: 4px;
+    width: 80vw;
+    max-width: 640px;
+}
+.sendButton {
+    color: #f8b9c7;
+    font-size: 13px;
+    padding: 7px 8px;
+    border-radius: 4px;
+    border: 2px solid #f8b9c7;
+    background-color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 24px;
+}
+.sendButton:hover {
+    color: #ff8fa7;
+    border-color: #ff8fa7;
+    /* transform: scale(1.08, 1.08); */
+    opacity: 40%;
+    cursor: not-allowed;
+}
+.textBoxLabel {
+    margin-top: 24px;
+    width: 80vw;
+    max-width: 640px;
+    text-align: left;
+}
 
 /* footer */
 *,*:before, *:after {
